@@ -54,14 +54,30 @@
 		14AE3FDE21AC48F9005F060B /* BucketList */ = {
 			isa = PBXGroup;
 			children = (
-				14AE3FDF21AC48F9005F060B /* AppDelegate.swift */,
+				14AE3FF121AC498D005F060B /* not of importance */,
 				14AE3FE121AC48F9005F060B /* ViewController.swift */,
-				14AE3FE321AC48F9005F060B /* Main.storyboard */,
-				14AE3FE621AC4901005F060B /* Assets.xcassets */,
-				14AE3FE821AC4901005F060B /* LaunchScreen.storyboard */,
-				14AE3FEB21AC4901005F060B /* Info.plist */,
+				14AE3FF221AC49E3005F060B /* view */,
 			);
 			path = BucketList;
+			sourceTree = "<group>";
+		};
+		14AE3FF121AC498D005F060B /* not of importance */ = {
+			isa = PBXGroup;
+			children = (
+				14AE3FDF21AC48F9005F060B /* AppDelegate.swift */,
+				14AE3FE621AC4901005F060B /* Assets.xcassets */,
+				14AE3FEB21AC4901005F060B /* Info.plist */,
+			);
+			path = "not of importance";
+			sourceTree = "<group>";
+		};
+		14AE3FF221AC49E3005F060B /* view */ = {
+			isa = PBXGroup;
+			children = (
+				14AE3FE321AC48F9005F060B /* Main.storyboard */,
+				14AE3FE821AC4901005F060B /* LaunchScreen.storyboard */,
+			);
+			path = view;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -281,7 +297,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = BucketList/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/BucketList/not of importance/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -298,7 +314,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = BucketList/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/BucketList/not of importance/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
